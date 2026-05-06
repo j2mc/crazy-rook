@@ -522,7 +522,8 @@
       text-align: center;
       border-bottom: 1px solid rgba(255,255,255,0.04);
     }
-    .score-table td:first-child { text-align: left; font-size: 0.95rem; }
+    .score-table td:first-child { text-align: left; font-size: 0.95rem; position: sticky; left: 0; background: var(--card); z-index: 1; }
+    .score-table tr.current-leader td:first-child { background: rgba(39,174,96,0.06); }
     .score-table tr:last-child td { border-bottom: none; }
     .score-table tr.current-leader td:first-child::after {
       content: ' 👑';
