@@ -29,7 +29,7 @@
       --text-muted: #9980c5;
       --text-dim: #6a5490;
       --suit-red: #e74c3c;
-      --suit-black: #0a0a0a;
+      --suit-black: #e8e8e8;
 	  --suit-green: #02b00a;
       --suit-yellow: #f7f707;
       --radius: 12px;
@@ -516,7 +516,7 @@
       text-align: center;
       border-bottom: 1px solid var(--card-border);
     }
-    .score-table th:first-child { text-align: left; }
+    .score-table th:first-child { text-align: left; position: sticky; left: 0; background: var(--card); z-index: 2; }
     .score-table td {
       padding: 9px 10px;
       text-align: center;
